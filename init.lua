@@ -1,0 +1,22 @@
+require "user"
+
+-- TODO
+--
+-- Plugins
+-- lsp
+-- Debugger?
+-- window management
+-- nvim-tree
+-- nvim-treesitter
+-- nvim commenter
+-- find file
+-- telescope
+-- feline
+-- https://github.com/lukas-reineke/indent-blankline.nvim
+-- https://github.com/max397574/better-escape.nvim
+--
+-- LSP 
+-- nvim-lspconfig
+-- nvim-cmp
+-- lsp-signature
+-- lspkind.nvim-cmp
