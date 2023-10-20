@@ -7,6 +7,7 @@ require 'user.plugins.cmp'
 require 'user.plugins.treesitter'
 require 'user.plugins.autopairs'
 require 'user.plugins.leap'
+require 'user.plugins.indent_blankline'
 
 -- Reload plugins when plugins.lua changes
 vim.cmd [[

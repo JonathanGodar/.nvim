@@ -63,10 +63,11 @@ return require('packer').startup(function(use)
 	-- Nice to have "Rice"
 	use { -- Show indentation lines.
 		"lukas-reineke/indent-blankline.nvim",
-		config = function() require("indent_blankline").setup {
-			show_current_context = true,
-			show_current_context_start = true,
-		} end
+		-- config = function() require("ibl").setup()
+		-- config = function() require("ibl").setup {
+		-- 	show_current_context = true,
+		-- 	show_current_context_start = true,
+		-- } end
 	}
 
 	-- use {
@@ -79,3 +80,5 @@ return require('packer').startup(function(use)
 	-- Auto pairs
 	use "windwp/nvim-autopairs"
 end)
+
+
